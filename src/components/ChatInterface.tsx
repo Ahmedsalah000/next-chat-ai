@@ -88,7 +88,7 @@ export function ChatInterface() {
     return (
         <div className="flex flex-col h-screen max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg">
             {/* Header */}
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+            <div className="bg-linear-to-r from-blue-600 to-purple-600 text-white p-4">
                 <h1 className="text-xl font-bold mb-2">🤖 Hugging Face Chat</h1>
 
                 {/* Model Selector */}
